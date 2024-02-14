@@ -20,7 +20,7 @@
             <button class="btn">Play Now</button>
         </section>
         <!-- Play ground start -->
-        <section class="play-ground min-h-screen gap-6 flex flex-col justify-center items-center">
+        <section class="play-ground min-h-screen gap-6 flex flex-col justify-center items-center hidden">
             <!-- screen start -->
             <div
                 class="artboard artboard-horizontal phone-6 border-[20px] border-[#010313CC] bg-[#FFFFFFB3] rounded-2xl ">
@@ -81,8 +81,15 @@
                 </button>
             </div>
         </section>
-        <section class="score">
-
+        <section class="score flex flex-col justify-center items-center min-h-screen">
+            <div class="font-bold text-white bg-[#010313CC] p-4 text-center rounded-lg space-y-4">
+                <h1 class="text-3xl">
+                    SCORE : 
+                    <span>14</span>
+                </h1>
+                <button class="btn text-black">Play Again</button>
+                <p>Practice will make you Pro</p>
+            </div>
         </section>
     </main>
 </body>
